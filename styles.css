@@ -1,0 +1,160 @@
+body{
+    color: black;
+    font-family: arial,sans-serif;
+}
+
+a,a:link,a:visited,a:active{
+    color: black;
+    text-decoration: none;
+    margin: 1vh;
+    font: 13px/27px Roboto,Arial,sans-serif
+}
+
+.link-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: .1vh;
+}
+
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.google-logo span{
+    color: #4487f6;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-wrapper form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 1.5vh;
+    width: 100%;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    min-width: 250px;
+    max-width: 500px;
+    height: 35px;
+    border-radius: 3vh;
+    font-size: 16px;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    color: black;
+    outline: none;
+    border: 1px solid #5f6368;
+}
+
+.search-bar:focus{
+    outline: none;
+}
+
+.button-wrapper{
+    display: flex;
+    gap: 1.5vh;
+}
+
+.search-button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.as-title{
+    color: #d93025;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+}
+
+.as-line{
+    border-bottom: 0px solid #ebebeb;
+    margin-bottom: 20px;
+}
+
+.as-button-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+input.as-form-item {
+    height: 25px;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    color: black;
+    border: 1px solid #5f6368;
+}
+
+#as-button{
+    background: #4d90fe;
+    border-color: #8ab4f8;
+    color: white;
+    height: 30px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 11px;
+    border-radius: 3px;
+    float: right;
+}
+
+#as-button-wrapper{
+    width: 50%;
+    min-width: 150px;
+    max-width: 550px;
+}
+
+#as-form{
+    display: grid;
+    grid-template-columns: 200px minmax(175px,554px) 300px;
+    grid-template-rows: auto;
+    grid-gap: 1em;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+@media only screen and (max-width: 1066px){
+    .as-form-hide{
+        font-size: 0 !important;
+    }
+}
+
+.as-form-hide{
+    font-size: 11px;
+}
+
+div.as-form-item{
+    font-size: 16px;
+}
+
+label.as-form-item{
+    font-size: 13px;
+}
