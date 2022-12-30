@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="link-wrapper">
+            <a href="index.html">Google Search</a>
+        </div>
+        <div class="as-title">
+            <span>Advanced Search</span>
+        </div>
+        <hr class="as-line">
+        <form id="as-form" action="https://google.com/search">
+            <div class="as-form-item">Find pages with...</div>
+            <div class="as-form-item"></div>
+            <div class="as-form-item as-form-hide">To do this in the search box</div>
+            <label class="as-form-item" for="as_q">all these words:</label>
+            <input class="as-form-item" type="text" name="as_q">
+            <label class="as-form-item as-form-hide">Type the important words:  <span>tricolor rat terrier</span></label>
+            <label class="as-form-item " for="as_epq">this exact word or phrase:</label>
+            <input class="as-form-item" type="text" name="as_epq">
+            <label class="as-form-item as-form-hide">Put exact words in quotes:  <span>"rat terrier"</span></label>
+            <label class="as-form-item" for="as_oq">any of these words:</label>
+            <input class="as-form-item" type="text" name="as_oq">
+            <label class="as-form-item as-form-hide">Type OR between all the words you want:  <span>miniature OR standard</span></label>
+            <label class="as-form-item" for="as_eq">none of these words:</label>
+            <input class="as-form-item" type="text" name="as_eq">
+            <label class="as-form-item as-form-hide">Put a minus sign just before words you don't want:  <span>-rodent, -"Jack Russell"</span></label>
+            <div class="as-form-item"></div>
+            <div id="as-form-item as-button-wrapper">
+                <input id="as-button" class="as-button" type="submit" value="Advanced Search">
+            </div>
+        </form>
+    </body>
+</html>
